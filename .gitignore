@@ -1,0 +1,25 @@
+# Node modules
+**/node_modules/
+**/.next/
+
+# Python cache and virtualenv
+**/__pycache__/
+**/*.pyc
+**/myenv/
+**/venv/
+
+# Environment and secrets
+.env
+**/.env
+*.pem
+*.key
+*.pkl
+*.h5
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+*.tmp
