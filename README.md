@@ -15,20 +15,28 @@ It uses:
 - Secure model prediction endpoints
 - Responsive frontend using Tailwind CSS
 - Real-time API calls with authorization
+- Forgot password feature via email
+- Database integration to store user & prediction data
 
 ## Tech Stack
 - Frontend: React + Vite + TailwindCSS
 - Backend: Node.js + Express
 - Models: Python (scikit-learn, TensorFlow)
-- Security: Secret keys + Authorization headers
+- Database: MongoDB
+- Security: JWT, Secret keys + Authorization headers
 
 ## Environment Variables
 See `.env.example` for required variables.
 
+```bash
 ## Run Locally
+
 # Install dependencies
 npm install
 
-# Start server
+# Frontend (React + Vite)
+cd client
 npm run dev
+
+# Backend (Node.js + Express)
 node app.js
