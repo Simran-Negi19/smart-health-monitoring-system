@@ -39,4 +39,5 @@ cd client
 npm run dev
 
 # Backend (Node.js + Express)
+cd server
 node app.js
